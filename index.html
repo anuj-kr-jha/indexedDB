@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IndexedDB</title>
+    </head>
+    <body>
+        <!-- Open DB -->
+        DB<input type="text" name="DB" id="txtDB" value="test" />
+        VERSION<input type="text" name="VERSION" id="txtVersion" value="1" />
+        <button id="btnOpenDB">Open DB</button><br> <br>
+
+        <!-- Add Personal Note -->
+        Key<input type="text" name="key" id="txtKey_pNote"/>
+        Value<input type="text" name="key" id="txtVal_pNote"/>
+        <button id="btnAdd_pNote">Add Personal Note</button> <br> <br>
+
+        <!-- Add TODO Note -->
+        Key<input type="text" name="key" id="txtKey_tNote"/>
+        Value<input type="text" name="key" id="txtVal_tNote"/>
+        <button id="btnAdd_tNote">Add TODO Note</button> <br> <br>
+
+        <button id="btnFindByPK">findByPK</button><br> <br>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
